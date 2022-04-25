@@ -1,16 +1,16 @@
 <script>
 import MenuLateral from "./components/MenuLateral.vue";
 import FootTwister from "@/components/FootTwister.vue";
-import Cabeca from "@/components/Cabeca.vue";
-import principal from "@/components/principal.vue";
+import CaBeca from "@/components/CaBeca.vue";
+import PRincipal from "@/components/PRincipal.vue";
 export default {
-  components: { MenuLateral, FootTwister, Cabeca, principal },
+  components: { MenuLateral, FootTwister, CaBeca, PRincipal },
 };
 </script>
 
 <template>
-  <principal></principal>
+  <PRincipal></PRincipal>
   <MenuLateral></MenuLateral>
   <FootTwister />
-  <Cabeca />
+  <CaBeca />
 </template>

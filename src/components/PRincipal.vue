@@ -5,9 +5,5 @@ export default { components: { BlocoSecundario } };
 <template>
   <main id="content">
     <BlocoSecundario texto="Bloco 1" />
-    <BlocoSecundario texto="Bloco 2" />
-    <BlocoSecundario texto="Bloco 3" />
-    <BlocoSecundario texto="Bloco 4" />
-    <BlocoSecundario texto="Bloco 5" />
   </main>
 </template>
